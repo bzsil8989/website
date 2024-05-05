@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohammed Basil - Developer portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="left">Basil's Developer Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, my name is <span class="purple">Mohammed Basil</span>
+          <div>I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <a href="https://github.com/bzsil8989" target="_blank"
+              ><button class="btn">GitHub</button></a
+            >
+          </div>
+        </div>
+        <div class="rightSection"><img src="all pngs/bg.png" alt="" /></div>
+      </section>
+
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Projects</h1>
+        <div class="box">
+          <div class="vertical">
+            <img src="all pngs/images.png" alt="" class="image-top" />
+            <div class="vertical-title">Malayalam Parser</div>
+            <div class="vertical-desc">
+              The project aims to create a robust Malayalam parser for NLP by
+              collecting, preprocessing, and annotating data, selecting parsing
+              approaches, training models, and evaluating performance. It
+              promotes linguistic diversity, addresses resource scarcity, and
+              fosters NLP research in Malayalam.
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img src="all pngs/student.png" alt="" class="image-top" />
+            <div class="vertical-title">Student Management system</div>
+            <div class="vertical-desc">
+              The Student Management Database System, created with Python and
+              Tkinter, helps educational institutions manage student information
+              effectively. It offers two user roles: administrator and student.
+              Administrators can access and update student details like marks
+              and fee information, while students can view their own academic
+              progress and fees.
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img src="dev.png" alt="" class="image-top" />
+            <div class="vertical-title">C++ Developer</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates maxime numquam ex odio ipsum animi. Necessitatibus
+              corporis iste porro facilis libero cum quia consectetur, doloribus
+              iusto eaque, placeat dolores dolor.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Basil's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <h4>Contact Me</h4>
+          <p>Phone: +91 8593955183</p>
+          <p>Email: bzsil8969@gmail.com</p>
+        </div>
+        <div class="footer-third">
+          <h4>Connect with Me</h4>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/basil8969" target="_blank"
+              ><img src="all pngs/link.png" alt="LinkedIn"
+            /></a>
+            <a href="https://github.com/bzsil8989" target="_blank"
+              ><img src="all pngs/git.png" alt="GitHub"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-rights">
+        Copyrights &#169; basilsportfolio.com | All rights reserved
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Cybersecurity Enthusiast",
+          "C++ Developer",
+          "About learning Python Automation",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>

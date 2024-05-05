@@ -1,0 +1,182 @@
+/* Your CSS styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  background-color: rgb(13, 11, 77);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: rgb(156, 156, 231);
+}
+
+main hr {
+  border: 0;
+  background: #9c97f1;
+  height: 1.2px;
+  margin: 40px 84px;
+}
+
+.left {
+  font-size: 2rem;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 140px 0;
+}
+
+.firstSection div {
+  width: 35%;
+}
+
+.firstSection div div {
+  width: auto;
+}
+
+.leftSection {
+  font-size: 3rem;
+  margin: 30px;
+}
+
+.leftSection .buttons {
+  padding: 46px 0;
+}
+
+.leftSection .btn {
+  padding: 12px;
+  background: #4e5199;
+  border-radius: 6px;
+  color: white;
+  border: 2px solid white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.rightSection img {
+  width: 80%;
+}
+
+.purple {
+  color: rgb(150, 45, 150);
+}
+
+#element {
+  color: #9c97f1;
+}
+
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+
+.secondSection h1 {
+  font-size: 1.9rem;
+}
+
+.secondSection .box {
+  background-color: white;
+  width: 65vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+
+.secondSection .vertical {
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0 250px;
+}
+
+.image-top {
+  width: 32px;
+  position: relative;
+  top: -32px;
+  left: -9px;
+}
+
+.vertical-title {
+  position: relative;
+  top: 75px;
+  width: 150px;
+}
+
+.vertical-desc {
+  position: relative;
+  top: 86px;
+  color: gray;
+  width: 200px;
+  font-size: 15px;
+}
+
+footer {
+  background-color: #0e0e1a;
+
+}
+
+.footer {
+  display: flex;
+  padding: 23px 122px;
+  justify-content: space-evenly;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer > div {
+  width: 223px;
+}
+
+footer .footer-rights {
+  text-align: center;
+  color: gray;
+  padding: 12px 0;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons img {
+  width: 30px; /* Adjust the width as needed */
+  height: 30px; /* Set the height to match the width */
+  background-color: #0e0e1a; /* Match footer background color */
+  padding: 5px; /* Add padding for better spacing */
+  margin-right: 10px; /* Add margin between icons */
+  border-radius: 50%; /* Make the images circular */
+}
