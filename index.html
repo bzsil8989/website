@@ -35,7 +35,7 @@
           <div>I am a passionate</div>
           <span id="element"></span>
           <div class="buttons">
-            <button class="btn">Download Resume</button>
+            <button class="btn" onclick="downloadResume()">Download Resume</button>
             <a href="https://github.com/bzsil8989" target="_blank"
               ><button class="btn">GitHub</button></a
             >
@@ -114,6 +114,14 @@
         ],
         typeSpeed: 50,
       });
+      function downloadResume() {
+        // Change 'path_to_resume.pdf' to the actual path of your resume file
+        var resumeUrl = 'Mohammed Basil.pdf';
+        var anchor = document.createElement('a');
+        anchor.href = resumeUrl;
+        anchor.download = 'Mohammed_Basil_Resume.pdf'; // Change the filename as needed
+        anchor.click();
+      }
     </script>
   </body>
 </html>
